@@ -20,15 +20,15 @@
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <!--Jdbc，包含JdbcTemplate-->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-jdbc</artifactId>
-    </dependency>
     <!--mysql驱动-->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>8.0.8-dmr</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-jdbc</artifactId>
     </dependency>
     <!--Jstl-->
     <dependency>
